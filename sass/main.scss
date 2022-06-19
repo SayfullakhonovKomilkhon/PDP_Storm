@@ -1,0 +1,613 @@
+//  fonts style
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url("fonts/SourceSansPro-Bold.ttf") format("truetype");
+}
+.source-sans {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+// color
+
+
+body {
+    .row {
+        padding: 0;
+        margin: 0;
+    }
+    .top {
+        background: url("../images/back.jpg") no-repeat;
+        background-size: cover;
+        height: 700px;
+        nav {
+            .container {
+                padding-top: 15px;
+                padding-bottom: 15px;
+                .dropdown {
+                    a {
+                        margin-right: 80px;
+                    }
+                    button:not(:last-child) {
+                        border: 1px solid #9DA7BB;
+                        box-sizing: border-box;
+                        border-radius: 4px;
+                        opacity: 0.3;
+                    }
+                    .kirish {
+                        margin-left: 42px;
+                    }
+                }
+            }
+        }
+        header {
+            .container {
+                .row {
+                    z-index: 0;
+                    position: relative;
+                    .col-6 {
+                            h1 {
+                                margin-top: 106px;
+                                color: #fff;
+                                font-weight: bold;
+                                font-size: 60px;
+                                line-height: 60px;
+                                margin-bottom: 50px;
+                                span {
+                                    color: #FDB917;
+                                    .line {
+                                        width: 5px;
+                                        height: 43px;
+                                        background-color: #fff;
+                                    }
+                                }
+                            }
+                            p {
+                                color: #fff;
+                                
+                            }
+                            form {
+                                .input-group {
+                                    position: relative;
+                                    width: 660px !important;
+                                    input{
+                                        border-radius: 2px;
+                                        height: 60px;
+                                        border: none;
+                                    }
+                                    span {
+                                        border: none;
+                                        border-radius: 0;
+                                        background: none;
+                                        position: absolute;
+                                        right: 12px;
+                                    }
+                                    
+                                }
+                            }
+                    }
+                    .col-6 {
+                        .card-scroll{
+                            position: relative;
+                            .card {
+                                margin-left: 90px;
+                                width: 400px;
+                                margin-top: 83px;
+                                height: 180px;
+                                .card-body {
+                                    .card-top {
+                                        a {
+                                            height: 22px;
+                                            width: 80px;
+                                            background-color: #FFB800;
+                                            font-size: 14px;
+                                            line-height: 17px;
+                                            text-align: center;
+                                            border-radius: 2px;
+                                            padding-top: 3px;
+                                        }
+                                        p {
+                                            color: #000;
+                                            font-size: 20px;
+                                            line-height: 24px;
+                                            span {
+                                                font-size: 13px;
+                                                line-height: 24px;
+                                            }
+                                        }
+                                    }
+                                    .card-main {
+                                        p {
+                                            color: #000;
+                                            font-size: 20px;
+                                            line-height: 24px;
+                                            max-width: 300px;
+                                            margin-top: 10px;
+                                        }
+                                    }
+                                    .card-bottom {
+                                        position: relative;
+                                        .card-img {
+                                            margin-top: 3px;
+                                            img {
+                                                height: 10px;
+                                                width: 10px;
+                                                margin-top: 8px;
+                                            }
+                                            img:not(:last-child) {
+                                                margin-right: 4px;
+                                            }
+                                            p {
+                                                color: #000;
+                                                margin-left: 6px;
+                                                span {
+                                                    color: #9DA7BB;
+                                                }
+                                            }
+                                        }
+                                        span {
+                                            opacity: 0.4;
+                                            box-sizing: border-box;
+                                            
+                                            width: 40px;
+                                            height: 40px;
+                                        }
+                                        i {
+                                            position: absolute;
+                                            color: #536DFD;
+                                            font-size: 30px;                            
+                                            right: 24px;
+                                            bottom: 13px;
+                                            border: 1px solid #9DA7BB;
+                                            border-radius: 50%;
+                                            padding: 5px;
+                                        }
+                                    }
+                                }
+                            }
+                            .img-js{
+                                position: absolute;
+                                right: -218px;
+                                top: -17px;
+                                img{
+                                    height: 210px;
+                                }
+                            }
+                        }
+                        .card-scroll1 {
+                            .card{
+                                margin-top: 40px;
+                                margin-left: 180px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .cours {
+        .container{
+            .row{
+                .title {
+                    margin: 0 auto;
+                    margin-top: 100px;
+                    margin-bottom: 60px;
+                }
+                .col-4 {
+                    padding: 0;
+                    .card {
+                        width: 350px;
+                        margin-top: 20px;
+                        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+                        background-color: #fff;
+                        border-radius: 4px;
+                        .card-img{
+                            background: url(../images/card3.jpg);
+                            height: 195px;
+                            padding-top: 20px;
+                            a{
+                                margin-left: 24px;
+                                font-size: 16px;
+                                line-height: 19px;
+                                width: 130px;
+                                height: 26px;
+                                background-color: #11BDF3;
+                                padding: 2px 18px 2px 18px;
+                                border-radius: 2px;
+                            }
+                        }
+                        .card-body {
+                            height: 212px;
+                            h3 {
+                                font-size: 24px;
+                                line-height: 29px;
+                                width: 280px;
+                            }
+                            .card-img2 {
+                                img {
+                                    height: 10px;
+                                    width: 10px;
+                                    margin-top: 8px;
+                                }
+                                img:not(:last-child) {
+                                    margin-right: 4px;
+                                }
+                                p {
+                                    color: #000;
+                                    margin-left: 6px;
+                                    span {
+                                        color: #9DA7BB;
+                                    }
+                                }
+                            }
+                            .kurs {
+                                .hajm {
+                                    margin-right: 32px;
+                                    color: #9DA7BB;
+                                    font-size: 14px;
+                                    line-height: 17px;
+                                    margin-bottom: 0 !important;
+                                }
+                                .narx {
+                                    color: #9DA7BB;
+                                    font-size: 14px;
+                                    line-height: 17px;
+                                    margin-bottom: 0 !important;
+                                }
+                            }
+                            .summa {
+                                .time {
+                                    margin-right: 35px !important;
+                                    font-size: 18px;
+                                    line-height: 21px;
+                                }
+                                .money {
+                                    font-size: 18px;
+                                    line-height: 21px;
+                                    span {
+                                        font-size: 14px;
+                                        line-height: 24px;
+                                    }
+                                }
+                            }
+                            i {
+                                position: absolute;
+                                color: #536DFD;
+                                font-size: 30px;                            
+                                right: 24px;
+                                bottom: 40px;
+                                border: 1px solid #9DA7BB;
+                                border-radius: 50%;
+                                padding: 5px;
+                            }
+                        }
+                    }
+                }
+                .col-6 {
+                    padding: 0;
+                    .card {
+                        width: 540px;
+                        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+                        background-color: #fff;
+                        border-radius: 4px;
+                        .card-img1 {
+                            background: url(../images/card2.jpg) !important;
+                            a{
+                                background-color: #11BDF3 !important;
+                            }
+                        }
+                        .card-img {
+                            background: url(../images/card1.jpg) ;
+                            height: 188px;
+                            padding-top: 20px;
+                            a{
+                                margin-top: 28px !important;
+                                margin-left: 51px;
+                                font-size: 16px;
+                                line-height: 19px;
+                                width: 130px;
+                                height: 26px;
+                                background-color: #10C8A0;
+                                padding: 2px 18px 2px 18px;
+                                border-radius: 2px;
+                            }
+                            
+                        }
+                        .card-body{
+                            height: 212px;
+                            padding-left: 32px;
+                            h3 {
+                                font-size: 24px;
+                                line-height: 29px;
+                                width: 310px;
+                            }
+                            .card-img2 {
+                                img {
+                                    height: 10px;
+                                    width: 10px;
+                                    margin-top: 8px;
+                                }
+                                img:not(:last-child) {
+                                    margin-right: 4px;
+                                }
+                                p {
+                                    color: #000;
+                                    margin-left: 6px;
+                                    span {
+                                        color: #9DA7BB;
+                                    }
+                                }
+                            }
+                            .kurs {
+                                .hajm {
+                                    margin-right: 100px;
+                                    color: #9DA7BB;
+                                    font-size: 14px;
+                                    line-height: 17px;
+                                    margin-bottom: 0 !important;
+                                }
+                                .narx {
+                                    color: #9DA7BB;
+                                    font-size: 14px;
+                                    line-height: 17px;
+                                    margin-bottom: 0 !important;
+                                }
+                            }
+                            .summa {
+                                .time {
+                                    margin-right: 88px;
+                                    font-size: 24px;
+                                    line-height: 29px;
+                                }
+                                .money {
+                                    font-size: 24px;
+                                    line-height: 29px;
+                                    span {
+                                        font-size: 18px;
+                                        line-height: 24px;
+                                    }
+                                }
+                            }
+                            i {
+                                position: absolute;
+                                color: #536DFD;
+                                font-size: 30px;                            
+                                right: 24px;
+                                bottom: 40px;
+                                border: 1px solid #9DA7BB;
+                                border-radius: 50%;
+                                padding: 5px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .categories {
+        background: #E5E5E5;
+        .container {
+            .categories-top {
+                margin-top: 60px;
+                .title {
+                    margin-top: 42px;
+                    font-size: 30px;
+                    line-height: 36px;
+                }
+                a {
+                    margin-top: 42px;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #536DFD;
+                    padding: 6px 31px 6px 31px;
+                    border: 1px solid #536DFD;
+                    box-sizing: border-box;
+                    height: 34px;
+                    border-radius: 4px;
+                }
+            }
+            .row {
+                .col-3 {
+                    .card1 {
+                        margin-top: 30px !important;
+                        margin-bottom: 100px;
+                    }
+                    .card {
+                        margin-top: 80px;
+                        width: 230px !important;
+                        height: 70px !important;
+                        .card-body {
+                            img {
+                                margin-left: 18px;
+                            }
+                            p {
+                                font-size: 20px;
+                                line-height: 24px;    
+                                margin-left: 15px;
+                            }
+                        }
+                    }
+                }
+            }
+            ul {
+                margin-left: 25px;
+                li:not(:last-child) {
+                    margin-right: 30px;
+                }
+            }
+        }
+    }
+    .under-bottom {
+        .container {
+            .row {
+                .col-3 {
+                    .card {
+                        width: 255px;
+                        margin-top: 20px;
+                        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+                        background-color: #fff;
+                        border-radius: 4px;
+                        .card-img{
+                            background: url(../images/main1.jpg);
+                            height: 113px;
+                            padding-top: 20px;
+                            a{
+                                margin-left: 24px;
+                                font-size: 16px;
+                                line-height: 19px;
+                                width: 130px;
+                                height: 26px;
+                                background-color: #11BDF3;
+                                padding: 2px 18px 2px 18px;
+                                border-radius: 2px;
+                            }
+                        }
+                        .card-body {
+                            height: 142px;
+                            h3 {
+                                font-size: 16px;
+                                line-height: 19px;
+                                width: 280px;
+                                margin-bottom: 0;
+                            }
+                            .card-img2 {
+                                img {
+                                    height: 10px;
+                                    width: 10px;
+                                    margin-top: 8px;
+                                }
+                                img:not(:last-child) {
+                                    margin-right: 1px;
+                                }
+                                p {
+                                    color: #000;
+                                    margin-left: 6px;
+                                    span {
+                                        color: #9DA7BB;
+                                    }
+                                }
+                            }
+                            .kurs {
+                                .hajm {
+                                    margin-right: 32px;
+                                    color: #9DA7BB;
+                                    font-size: 12px;
+                                    line-height: 14px;
+                                    margin-bottom: 0 !important;
+                                }
+                                .narx {
+                                    color: #9DA7BB;
+                                    font-size: 12px;
+                                    line-height: 14px;
+                                    margin-bottom: 0 !important;
+                                }
+                            }
+                            .summa {
+                                .time {
+                                    margin-right: 35px !important;
+                                    font-size: 14px;
+                                    line-height: 17px;
+                                }
+                                .money {
+                                    font-size: 14px;
+                                    line-height: 17px;
+                                    span {
+                                        font-size: 10px;
+                                        line-height: 14px;
+                                    }
+                                }
+                            }
+                            i {
+                                position: absolute;
+                                color: #536DFD;
+                                font-size: 30px;                            
+                                right: 24px;
+                                bottom: 20px;
+                                border: 1px solid #9DA7BB;
+                                border-radius: 50%;
+                                padding: 5px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    .foot {
+        background: url(../images/unfooter.jpg) no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 497px;
+        margin-top: 100px;
+        position: relative;
+        .container {
+            .img1 {
+                position: absolute;
+                top: 80px;
+                left: 176px;
+            }
+            .img2 {
+                position: absolute;
+                right: 176px;
+                bottom: 110px;
+            }
+            h3 {
+                text-align: center;
+                width: 848px;
+                font-size: 40px;
+                color: #fff;
+                line-height: 48px;
+                margin: 0 auto;
+                padding-top: 142px;
+            }
+            p {
+                font-size: 30px;
+                color: #fff;
+                line-height: 36px;
+                position: absolute;
+                bottom: 100px;
+                left: 326px;
+            }
+        }
+    }
+    .bottom {
+        background: #E5E5E5;
+        .container {
+            .title {
+                font-size: 30px;
+                padding-top: 126px;
+                margin-bottom: 70px;
+                line-height: 36px;
+            }
+            .col-3 {
+                margin-bottom: 130px;
+                .img1, .img4 {
+                    margin-top: 15px;
+                }
+            }
+        }
+    }
+    footer {
+        .container {
+            .col-3 {
+                margin-top: 40px;
+                a {
+                    color: #000;
+                    font-size: 18px;
+                    line-height: 21px;
+                    text-align: center;
+                }
+                ul {
+                    padding: 0;
+                    li {
+                        font-size: 14px;
+                        color: #9DA7BB;
+                        margin-top: 14px;
+                        line-height: 17px;
+                        list-style: none;
+                    }
+                }
+            }
+        }
+    }
+}
